@@ -4,7 +4,8 @@
   "private": true,
   "description": "FastAPI backend runner",
   "scripts": {
-    "start": "py -3.14 -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload",
-    "test": "py -3.14 -m pytest tests/ -v"
+    "start": "node run.js start",
+    "mlflow": "node run.js mlflow",
+    "test": "node run.js test"
   }
 }
