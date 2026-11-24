@@ -29,3 +29,4 @@ python scripts/prepare_data.py || true
 echo "=========================================="
 echo "==> Build finished successfully!"
 echo "=========================================="
+
